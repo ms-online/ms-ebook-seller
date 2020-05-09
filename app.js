@@ -22,7 +22,7 @@ app.use(express.static(`${__dirname}/public`));
 // index路由
 app.get('/', (req, res)=> {
     res.render('index'),{
-        stripePublishableKey:keys.stripePublishabKey
+        stripePublishableKey:keys.stripePublishableKey
     }
 })
 
